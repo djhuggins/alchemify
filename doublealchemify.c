@@ -13,7 +13,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA *
  ******************************************************************************/
 
-#include "libalchemify.h"
+#include "libdoublealchemify.h"
 
 char    cmd_line(int n, char **arg);
 void    usage(void);
@@ -67,9 +67,9 @@ int main(int argc, char **argv) {
 
 
 void	usage(void) {
-	printf("\nAlchemify %u.%u\nhttp:/*www.edam.uhp-nancy.fr/Alchemify\n\n",
+	printf("\ndoublealchemify %u.%u\nhttps://github.com/djhuggins/doublealchemify\n\n",
 		MAJOR_VERSION, MINOR_VERSION);
-	printf("Usage : alchemify input.psf output.psf FEPfile.fep [FEP_column]\n"
+	printf("Usage : doublealchemify input.psf output.psf FEPfile.fep [FEP_column]\n"
 		"(default column is B)\n\n");
 	printf("Distributed under the terms of the GNU General Public License, version 2\n"
 		"(see LICENSE or http:/*www.gnu.org/copyleft/gpl.html)\n\n");
