@@ -1,5 +1,5 @@
 #define MAJOR_VERSION 1
-#define MINOR_VERSION 4
+#define MINOR_VERSION 0
   
 #include <stdio.h>
 #include <stdlib.h>
