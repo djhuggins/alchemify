@@ -1,5 +1,5 @@
 #include <ctype.h>
-#include "libalchemify.h"
+#include "libdoublealchemify.h"
 
 /* Private functions */
 static int couples(int *p, int n, int *initial, int *final, int nInitialOne, int nFinalOne);
